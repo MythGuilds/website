@@ -9941,7 +9941,15 @@ color: yellow;
  .modal-content {
 
   background-color: black !important; 
-  background-image: url(img/scroll.jpg);
+  
+
  }
 
+.portfolio-modal-title {
+  color: gold !important;
+}
 
+.copyright {
+background: #282828 !important;
+
+} 
