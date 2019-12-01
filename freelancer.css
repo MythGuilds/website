@@ -9856,15 +9856,10 @@ form .row:first-child .floating-label-form-group {
 
 /* Added code from lexi */  
 
-.discordbutton { 
-display: block;
-margin-left: auto;
-margin-right: auto;
 
- } 
 
  .info { 
-  color: gold !important;
+  color: gold;
 
   }
 
@@ -9934,22 +9929,53 @@ color: yellow;
 
   
   .portfolio{
-    background-color: #404040 !important;
-
+    background-color: #404040;
   }
 
  .modal-content {
+  background-color: none;
+  background: none ; 
+  background-repeat: no-repeat;
 
-  background-color: black !important; 
-  
+  background-size: 100% 110% ;
+  background-image: url(img/scroll.png);
+
 
  }
 
 .portfolio-modal-title {
-  color: gold !important;
+  color: gold ;
 }
 
 .copyright {
-background: #282828 !important;
+background: #282828;
 
 } 
+.page-section-heading 
+{
+  color: gold ;
+
+}
+ .widgetstyle 
+
+ { 
+ 
+  float:left;
+  padding:1%;
+
+ }
+
+.video 
+{
+  width: 60% ;
+margin-right: 60px;
+
+}
+
+.discordbutton { 
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+ } 
+
