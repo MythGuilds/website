@@ -9905,7 +9905,8 @@ color: yellow;
  }
  .ranktxt 
  {
-  color: gold;
+  color: black;
+  font-style: 
  }
 
  .who
@@ -9944,7 +9945,7 @@ color: yellow;
  }
 
 .portfolio-modal-title {
-  color: gold ;
+  color: red !important;
 }
 
 .copyright {
