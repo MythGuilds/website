@@ -9860,7 +9860,7 @@ form .row:first-child .floating-label-form-group {
 
  .info { 
   color: gold;
-
+  text-align: center;
   }
 
   .queen 
@@ -9882,31 +9882,44 @@ form .row:first-child .floating-label-form-group {
 
 .rank1{
   color: red;
+  font-size: 25px ; 
 }
 
 .rank2 { 
 color: yellow; 
+font-size: 25px ;
  }
 
  .rank3 {
   color: purple;
+  font-size: 25px ;
+
  }
 
  .rank4{
   color: darkblue;
+font-size: 25px ;
 
  }
  .rank5{
   color: lightblue; 
+font-size: 25px ;
+
  }
 
  .rank6 {
   color: green;
+font-size: 25px ;
+  
  }
  .ranktxt 
  {
   color: black;
-  font-style: 
+  font-family: 'Parisienne', cursive;
+  font-style: bold ; 
+  font-size: 25px ;
+
+
  }
 
  .who
