@@ -321,7 +321,7 @@
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div  class="container ">
-      <small>Copyright &copy; Mythguilds 2019</small>
+      <small>Copyright &copy; Mythguilds <span id="currentyear"> </span> </small>
     </div>
   </section>
 
@@ -610,6 +610,18 @@
       </div>
     </div>
   </div>
+  <script> 
+
+    let currentyearElement = document.getElementById("currentyear");
+
+    let currentyear = new Date().getFullYear();
+
+    currentyearElement.innerText = currentyear;
+
+  </script>
+
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
